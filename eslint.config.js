@@ -12,7 +12,6 @@ export default tseslint.config(
     extends: [
       js.configs.recommended,
       ...tseslint.configs.recommended,
-      'plugin:storybook/recommended'
     ],
     files: ['**/*.{ts,tsx}', '**/*.*.{ts,tsx}'],
     languageOptions: {
